@@ -25,6 +25,16 @@ function(){
             '<li>name:'+users.name[i]+'</li>'+
             '<li>type:'+users.type+'</li>'+
             '<li>language:'+users.language+'</li>'+
+            '<li>genres: '+users.genres[i]+'</li>'+
+            '<li>runtime:'+users.runtime+'</li>'+
+            '<li>premeried:'+users.premeried+'</li>'+
+            '<li>officialsite:'+users.url+'</li>'+
+            '<li>schedule:'+users.schedule+'</li>'+
+            '<li>network: '+users.network+'</li>'+
+            '<li>weight:'+users.weight+'</li>'+
+            '<li>id:'+users.id+'</li>'+
+            '<li>officialsite:'+users.url+'</li>'+
+                
             '</ul>';
             }
             
