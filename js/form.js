@@ -14,24 +14,27 @@ function(){
    // xhr.setRequestHeader("","");
 
     xmlhttp.onreadystatechange = function() {
-        if(this.readyState == 4 && this.status == 200){
+        if(this.readyState == 4 && this.status == 200){ 
             var users = JSON.parse(this.responseText);
-            
+
             var output ='';
             for(var i in users){
-                output += '<ul>'+
-                    '<li>ID: '+users.score+'</li>'+
-                '<li>url: '+url+'</li>'+
-                    '<li>name: '+users.show+'</li>'+
-                    '<li>type: 'users.status+'</li>'+
-                        '<li>language: 'users.language+'</li>+
-                '</ul>';
+
+            output  += '<ul>'+
+            '<li>ID: '+users.score+'</li>'+
+            '<li>url:'+url+'</li>'+
+            '<li>name:'+users.show+'</li>'+
+            '<li>type:'+users.status+'</li>'+
+            '<li>language:'+users.rating+'</li>'+
+            '</ul>';
             }
+            
             document.getElementById('container').
             innerHTML = output;
-       
-
+        
         }
+            
+           
     };
     xmlhttp.open('GET',url,true);
     xmlhttp.send();
