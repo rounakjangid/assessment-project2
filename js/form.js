@@ -26,6 +26,17 @@ function(){
             '<li>name:'+users.show+'</li>'+
             '<li>type:'+users.status+'</li>'+
             '<li>language:'+users.rating+'</li>'+
+            '<li>url:'+url+'</li>'+ 
+            '<li>genres: '+users.genres+'</li>'+
+            '<li>runtime:'+users.runtime+'</li>'+
+            '<li>premeried:'+users.premeried+'</li>'+
+            '<li>officialsite:'+users.url+'</li>'+
+            '<li>schedule:'+users.schedule+'</li>'+
+            '<li>network: '+users.network+'</li>'+
+            '<li>weight:'+users.weight+'</li>'+
+            '<li>id:'+users.id+'</li>'+
+            '<li>officialsite:'+users.url+'</li>'+
+                
             '</ul>';
             }
             
